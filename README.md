@@ -3,7 +3,7 @@
 
 ### About
 
-**``CL-ShortTitles-Parser``** parses and types phrases from the titles of NLP scholarly articles written in English for their scientific knowledge elements focused on scholarly contributions. 
+**``CL-ShortTitles-Parser``** parses and types phrases from the titles of **C**omputational **L**inguistics scholarly articles written in English for their scientific knowledge elements focused on scholarly contributions. 
 Specifically, it looks for phrases representing the following seven semantic types: **_research problem_**, **_solution_**, **_resource_**, **_language_**, **_tool_**, **_method_** and **_dataset_**.
 It is developed as part of the [Open Research Knowledge Graph Project](https://www.orkg.org/) at [TIB](https://www.tib.eu/en/).
 
