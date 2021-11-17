@@ -3,7 +3,7 @@
 
 ### About
 
-**``CL-ShortTitles-Parser``** parses and types phrases from the titles of **C**omputational **L**inguistics scholarly articles written in English for their scientific knowledge elements focused on scholarly contributions. 
+**``CL-ShortTitles-Parser``** parses and types phrases from the titles of **C**omputational **L**inguistics scholarly articles written in English for their scientific entities. 
 Specifically, it looks for phrases representing the following seven semantic types: **_research problem_**, **_solution_**, **_resource_**, **_language_**, **_tool_**, **_method_** and **_dataset_**.
 Further, it uses a set of cue words to chunk the phrases in the titles. The cues are 'to|of|on|for|from|with|by|via|through|using|in|as|over|against|within|under|at|including|towards|across|involving|representing|between'. Finally, it parses only those titles with 0 or 1 such cues, i.e. for titles with a maximum of two chunks. Thus this parser is a simplified and more precise version of the earlier [Titles Parser](https://github.com/jd-coderepos/cl-titles-parser) that parsed titles with any number of cues. Please see the History section for more information of the older parser. 
 It is developed as part of the [Open Research Knowledge Graph Project](https://www.orkg.org/) at [TIB](https://www.tib.eu/en/).
