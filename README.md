@@ -13,7 +13,7 @@ The code released in this repository is the standalone version of the parser.
 
 ### History
 
-The parser was originally developed to extract six semantic concepts from titles of any length. That version of the parser is hosted at [cl-titles-parser](https://github.com/jd-coderepos/cl-titles-parser).
+The parser was originally developed to extract six semantic concepts from titles with any number of cues. That version of the parser is hosted at [cl-titles-parser](https://github.com/jd-coderepos/cl-titles-parser).
 The six types it extracted were: **_research problem_**, **_solution_**, **_resource_**, **_language_**, **_tool_**, and **_method_**.
 
 
