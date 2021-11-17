@@ -29,5 +29,5 @@ Clone this repository locally and run the parser as follows:
 
 `python parse_titles.py <input_titles_file> <output_data_dir>`
 
-where *input_file* is a file with the papers' titles to be parsed with a new title in each line and *output_data_dir* is a user-specified local directory where the parsed output from the program will be written.
+where *input_file* is a file with the papers' titles to be parsed with a new title in each line and *output_data_dir* is a user-specified local directory where the parsed output from the program will be written. Sample data are provided in the [data](https://github.com/jd-coderepos/cl-shorttitles-parser/tree/master/data) folder.
 
