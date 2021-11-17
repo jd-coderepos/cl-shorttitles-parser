@@ -3,27 +3,27 @@ import re
 from filters import *
 from utils import *
 from core_func import *
-import titled_solution
-import using_entity
-import toward_entity
-import case_study
-import colon_separator
-import determiner_entity
-import ing_pattern_information
-import tool_entity
-import proof
-import search
-import grouping
-import automated
-import supervision
-import evaluation
-import improved
-import algorithm
-import programming
-import learning
-import prediction
-import rules
-import application
+import func.titled_solution as titled_solution
+import func.using_entity as using_entity
+import func.toward_entity as toward_entity
+import func.case_study as case_study
+import func.colon_separator as colon_separator
+import func.determiner_entity as determiner_entity
+import func.ing_pattern_information as ing_pattern_information
+import func.tool_entity as tool_entity
+import func.proof as proof
+import func.search as search
+import func.grouping as grouping
+import func.automated as automated
+import func.supervision as supervision
+import func.evaluation as evaluation
+import func.improved as improved
+import func.algorithm as algorithm
+import func.programming as programming
+import func.learning as learning
+import func.prediction as prediction
+import func.rules as rules
+import func.application as application
 
 
 def filter(line):
@@ -601,16 +601,17 @@ def read_file(input_file, output_dir):
 		dataset_file.write(str(data)+'\n')		
 	
 	print('done!')
-	print('total titles: '+str(raw_count))
+	print('total valid titles: '+str(raw_count))
+	print('Written to '+output_dir+'\\acl-titles.dat')   
 	print('total processed titles: '+str(titles_count))	
-	#print('subgrouped titles: '+str(subgrouped_titles))
-	print('solution count: '+str(solution_count))
-	print('research_problem_count: '+str(research_problem_count))
-	print('resource_count: '+str(resource_count))
-	print('language_count: '+str(language_count))
-	print('method_count: '+str(method_count))
-	print('tool_count: '+str(tool_count))
-	print('dataset_count: '+str(dataset_count))
+	print('Written to '+output_dir+'\\processed-titles.dat')
+	print('Total solution entities extracted: '+str(solution_count))
+	print('Total research_problem entities extracted: '+str(research_problem_count))
+	print('Total resource entities extracted: '+str(resource_count))
+	print('Total language entities extracted: '+str(language_count))
+	print('Total method entities extracted: '+str(method_count))
+	print('Total tool entities extracted: '+str(tool_count))
+	print('Total dataset entities extracted: '+str(dataset_count)+'\n')
 
 	# for key in rules_statistics:
 		# print(key+'\t'+str(rules_statistics[key])+'\n')	
